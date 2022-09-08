@@ -4,8 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="406627e9-aaef-494d-878e-3415a3effa20" name="Changes" comment="1st commit">
+    <list default="true" id="406627e9-aaef-494d-878e-3415a3effa20" name="Changes" comment="Update ignore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/enumeration/SupportedBrowsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/factory/WebDriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/invoker/WebDriverInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/invoker/implementation/LocalChromeInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/invoker/implementation/LocalFirefoxInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/invoker/implementation/RemoteChromeInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/modules/ProfileDropDownModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/properties/converters/SupportedBrowserConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/properties/holder/PropertyHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/BaseSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/HomePageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/LoginPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/browser.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/LoginToGitTest.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bdd_test_demo/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bdd_test_demo/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/bdd_test_demo/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/bdd_test_demo/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +52,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/feli/IdeaProjects/bdd_test_demo/src/main/java/org/example/bdd_test_demo/properties"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/properties" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject" />
+      <recent name="$PROJECT_DIR$/src/test/resources/features" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.bdd_test_demo" />
+      <recent name="" />
+      <recent name="com.example.bdd_test_demo" />
+      <recent name="com.example.bdd_test_demo.invoker" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.bdd_test_demo.pageobject" />
+      <recent name="org.example.bdd_test_demo.stepdefinition" />
+      <recent name="com.example.bdd_test_demo.invoker.implementation" />
+      <recent name="com.example.bdd_test_demo.factory" />
+      <recent name="com.example.bdd_test_demo.enumeration" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bdd_test_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stepdefinition" />
+      <option name="MAIN_CLASS_NAME" value="org.example.bdd_test_demo.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662615650717</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update ignore">
+      <created>1662659666586</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662659666587</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,6 +149,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st commit" />
+    <MESSAGE value="Update Idea" />
+    <MESSAGE value="Update ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update ignore" />
   </component>
 </project>
