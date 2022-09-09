@@ -1,6 +1,6 @@
-Feature: Test scenario 1 for Amazon
+Feature: Test scenario 3 for Amazon
 
-  Scenario: Check Shop By Category Test
+  Scenario: Check Brand Filter Test
     Given User is currently on "Amazon Home Page"
 
     When User click "Computers & Accessories" on "Amazon Home Page"

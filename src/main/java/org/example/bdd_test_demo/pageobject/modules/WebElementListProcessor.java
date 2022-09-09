@@ -30,7 +30,6 @@ public class WebElementListProcessor {
                 check++;
             }
         }
-//        productTitleList.forEach(e->!e.getText().contains(brandName)?return false:return true);
         return check;
     }
 

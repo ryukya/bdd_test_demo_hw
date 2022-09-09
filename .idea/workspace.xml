@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="406627e9-aaef-494d-878e-3415a3effa20" name="Changes" comment=" Error &quot;You're not allowed to extend classes that define Step Definitions or hooks.&quot;&#10; Not solved even after restarting the intellijidea">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/modules/WebElementListProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/CheckBrandFilter.feature" afterDir="false" />
+    <list default="true" id="406627e9-aaef-494d-878e-3415a3effa20" name="Changes" comment=" Error related to exten still unsolved.&#10; Cleanup code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/modules/ProfileDropDownModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/modules/WebElementListProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/modules/WebElementListProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/AmazonHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/AmazonHomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/ResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/ResultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/AmazonHomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/AmazonHomePageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/HomePageSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/LoginPageSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/ResultPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/ResultPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CheckShopBySpecificProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CheckShopBySpecificProduct.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/LoginToGitTest.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CheckBrandFilter.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CheckBrandFilter.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662691233953</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" Error related to exten still unsolved.&#10; Done creating all 3 features test">
+      <created>1662696058072</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662696058072</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,7 +265,10 @@
     <MESSAGE value="Test runner not working, running test from LogintoGittest.feature work" />
     <MESSAGE value="Amazon on progress" />
     <MESSAGE value=" Error &quot;You're not allowed to extend classes that define Step Definitions or hooks.&quot;&#10; Not solved even after restarting the intellijidea" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Error &quot;You're not allowed to extend classes that define Step Definitions or hooks.&quot;&#10; Not solved even after restarting the intellijidea" />
+    <MESSAGE value=" Error related to exten still unsolved.&#10; Done creating all 3 features" />
+    <MESSAGE value=" Error related to exten still unsolved.&#10; Done creating all 3 features test" />
+    <MESSAGE value=" Error related to exten still unsolved.&#10; Cleanup code" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Error related to exten still unsolved.&#10; Cleanup code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

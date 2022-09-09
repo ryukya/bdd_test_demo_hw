@@ -15,6 +15,7 @@ public class AmazonHomePageSteps {
         PAGES_STORAGE.put(pageName,homePage);
         homePage.open();
     }
+
     @When("User click {string} on {string}")
     public void userClickCategoryinShopByCategory(String category, String pageName) {
         PAGES_STORAGE.put("Result Page", ((AmazonHomePage) PAGES_STORAGE.get(pageName)).shopComputerCat(category));
@@ -29,6 +30,4 @@ public class AmazonHomePageSteps {
     public void userIsSuccessfullyNavigatedToTheHomePage(String expectedUrl) {
         Assert.assertEquals(expectedUrl, webDriver.getCurrentUrl());
     }
-
-
 }
