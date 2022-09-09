@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="406627e9-aaef-494d-878e-3415a3effa20" name="Changes" comment="create files" />
+    <list default="true" id="406627e9-aaef-494d-878e-3415a3effa20" name="Changes" comment="Amazon on progress">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/AmazonHomePageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/ResultPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/AmazonHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/AmazonHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/ResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/ResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CheckShopByCategoryTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CheckShopByCategoryTest.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +21,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,13 +44,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/feli/IdeaProjects/bdd_test_demo/src/main/java/org/example/bdd_test_demo/properties"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/feli/IdeaProjects/bdd_test_demo/src/main/java/org/example/bdd_test_demo/properties&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/properties" />
@@ -55,16 +71,75 @@
       <recent name="com.example.bdd_test_demo.enumeration" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestRunner">
-    <configuration name="Scenario: Login to GitHub" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Check Shop By Specific Product Category Test">
+    <configuration name="Feature: CheckShopByCategoryTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LoginToGitTest.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CheckShopByCategoryTest.feature" />
       <option name="GLUE" value="org.example.bdd_test_demo.stepdefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="bdd_test_demo" />
-      <option name="NAME_FILTER" value="^Login to GitHub$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login to GitHub$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login to GitHub" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: CheckShopByCategoryTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Check Brand Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CheckShopByCategoryTest.feature" />
+      <option name="GLUE" value="org.example.bdd_test_demo.stepdefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="bdd_test_demo" />
+      <option name="NAME_FILTER" value="^Check Brand Test$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check Brand Test$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check Brand Test" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Check Shop By Category Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CheckShopByCategoryTest.feature" />
+      <option name="GLUE" value="org.example.bdd_test_demo.stepdefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="bdd_test_demo" />
+      <option name="NAME_FILTER" value="^Check Shop By Category Test$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check Shop By Category Test$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check Shop By Category Test" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Check Shop By Specific Product Category Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CheckShopBySpecificProduct.feature" />
+      <option name="GLUE" value="org.example.bdd_test_demo.stepdefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="bdd_test_demo" />
+      <option name="NAME_FILTER" value="^Check Shop By Specific Product Category Test$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check Shop By Specific Product Category Test$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check Shop By Specific Product Category Test" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Check Shop By Specific Product Category Test" />
+        <item itemvalue="Cucumber Java.Scenario: Check Shop By Category Test" />
+        <item itemvalue="Cucumber Java.Feature: CheckShopByCategoryTest" />
         <item itemvalue="TestNG.TestRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Login to GitHub" />
+        <item itemvalue="Cucumber Java.Scenario: Check Brand Test" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662661699419</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Test runner not working, running test from LogintoGittest.feature work">
+      <created>1662662090313</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662662090313</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Amazon on progress">
+      <created>1662666295083</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662666295083</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +248,8 @@
     <MESSAGE value="Update Idea" />
     <MESSAGE value="Update ignore" />
     <MESSAGE value="create files" />
-    <option name="LAST_COMMIT_MESSAGE" value="create files" />
+    <MESSAGE value="Test runner not working, running test from LogintoGittest.feature work" />
+    <MESSAGE value="Amazon on progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Amazon on progress" />
   </component>
 </project>

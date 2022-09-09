@@ -17,6 +17,10 @@ public class AmazonHomePage extends BasePage {
     public AmazonHomePage(WebDriver webDriver) {
         super(webDriver);
     }
+    public AmazonHomePage open() {
+        webDriver.get("https://www.amazon.com");
+        return this;
+    }
 
     public ResultPage  shopComputerCat() {
         shopComputerCategory.click();

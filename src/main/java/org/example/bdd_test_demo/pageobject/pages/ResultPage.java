@@ -1,5 +1,7 @@
 package org.example.bdd_test_demo.pageobject.pages;
 
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Then;
 import org.example.bdd_test_demo.pageobject.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -28,4 +30,9 @@ public class ResultPage extends BasePage {
     public ResultPage(WebDriver webDriver) {
         super(webDriver);
     }
+    public WebElement getComputerSectionBanner() {
+        return computerSectionBanner;
+    }
+
+
 }

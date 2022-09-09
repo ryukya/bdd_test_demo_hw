@@ -29,7 +29,6 @@ public class LoginPage extends BasePage {
         loginField.sendKeys(username);
         passwordField.sendKeys(pass);
         sighInButton.click();
-
         return new HomePage(webDriver);
     }
 
