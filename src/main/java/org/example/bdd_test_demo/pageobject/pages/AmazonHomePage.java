@@ -1,17 +1,11 @@
 package org.example.bdd_test_demo.pageobject.pages;
 
 import org.example.bdd_test_demo.pageobject.BasePage;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 
 public class AmazonHomePage extends BasePage {
-
-    @FindBy(xpath = "//a[@aria-label='Computers & Accessories']")
-    private WebElement shopComputerCategory;
-
-    @FindBy(xpath = "//img[@alt=\"Chairs\"]")
-    private WebElement shopSpecificProductCategory;
 
 
     public AmazonHomePage(WebDriver webDriver) {
@@ -22,13 +16,17 @@ public class AmazonHomePage extends BasePage {
         return this;
     }
 
-    public ResultPage  shopComputerCat() {
-        shopComputerCategory.click();
+
+    public ResultPage shopComputerCat(String categoryType) {
+        WebElement productCateButton= webDriver.findElement(By.xpath( "//a[@aria-label='"+categoryType+"']"));
+        productCateButton.click();
         return new ResultPage(webDriver);
     }
 
-    public ResultPage  shopChair() {
-        shopSpecificProductCategory.click();
+
+    public ResultPage shopChair(String productType) {
+        WebElement productCateButton= webDriver.findElement(By.xpath( "//img[@alt=\""+productType+"\"]"));
+        productCateButton.click();
         return new ResultPage(webDriver);
     }
 }

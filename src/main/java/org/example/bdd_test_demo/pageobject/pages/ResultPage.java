@@ -3,6 +3,7 @@ package org.example.bdd_test_demo.pageobject.pages;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.example.bdd_test_demo.pageobject.BasePage;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
@@ -15,8 +16,6 @@ public class ResultPage extends BasePage {
     @FindBy(xpath = "//div[@class='a-section a-spacing-none']/descendant::span[.='Apple']")
     private WebElement ChooseAppleBrand;
 
-    @FindBy(xpath = "//div[@class='a-section a-spacing-none']/descendant::span[.='Roku']")
-    private WebElement ChooseRokuBrand;
 
     @FindBy(xpath = "//div[@class='fst-h1-st pageBanner']/descendant::b[.='Computers, Tablets and IT Accessories']")
     private WebElement computerSectionBanner;
@@ -33,6 +32,21 @@ public class ResultPage extends BasePage {
     public WebElement getComputerSectionBanner() {
         return computerSectionBanner;
     }
+
+    public ResultPage clickbrand(String branname) {
+        WebElement brandButton= webDriver.findElement(By.xpath("//div[@class='a-section a-spacing-none']/descendant::span[.='"+branname+"']"));
+        brandButton.click();;
+        return this;
+    }
+
+    public List<WebElement> getProductChairList() {
+        return productChairList;
+    }
+
+    public List<WebElement> getProductBrandList() {
+        return getProductBrandList();
+    }
+
 
 
 }

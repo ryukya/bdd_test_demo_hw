@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="406627e9-aaef-494d-878e-3415a3effa20" name="Changes" comment="Amazon on progress">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/AmazonHomePageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/ResultPageSteps.java" afterDir="false" />
+    <list default="true" id="406627e9-aaef-494d-878e-3415a3effa20" name="Changes" comment=" Error &quot;You're not allowed to extend classes that define Step Definitions or hooks.&quot;&#10; Not solved even after restarting the intellijidea">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/modules/WebElementListProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/CheckBrandFilter.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/AmazonHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/AmazonHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/LoginPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/ResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bdd_test_demo/pageobject/pages/ResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CheckShopByCategoryTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CheckShopByCategoryTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/AmazonHomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/AmazonHomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/HomePageSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/LoginPageSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/ResultPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/bdd_test_demo/stepdefinition/ResultPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CheckShopBySpecificProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CheckShopBySpecificProduct.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/LoginToGitTest.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662666295083</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=" Error &quot;You're not allowed to extend classes that define Step Definitions or hooks.&quot;&#10; Not solved even after restarting the intellijidea">
+      <created>1662691233953</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662691233953</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +261,17 @@
     <MESSAGE value="create files" />
     <MESSAGE value="Test runner not working, running test from LogintoGittest.feature work" />
     <MESSAGE value="Amazon on progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Amazon on progress" />
+    <MESSAGE value=" Error &quot;You're not allowed to extend classes that define Step Definitions or hooks.&quot;&#10; Not solved even after restarting the intellijidea" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Error &quot;You're not allowed to extend classes that define Step Definitions or hooks.&quot;&#10; Not solved even after restarting the intellijidea" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="io.cucumber.core.exception.CompositeCucumberException" package="io.cucumber.core.exception" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

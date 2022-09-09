@@ -16,8 +16,13 @@ public class AmazonHomePageSteps {
         homePage.open();
     }
     @When("User click {string} on {string}")
-    public void userClickCategoryinShopByCategory(String Category, String pageName) {
-        PAGES_STORAGE.put("Result Page", ((AmazonHomePage) PAGES_STORAGE.get(pageName)).shopComputerCat());
+    public void userClickCategoryinShopByCategory(String category, String pageName) {
+        PAGES_STORAGE.put("Result Page", ((AmazonHomePage) PAGES_STORAGE.get(pageName)).shopComputerCat(category));
+    }
+
+    @When("User click on specific product category {string} on {string}")
+    public void userClickSpecificProductCategory(String category, String pageName) {
+        PAGES_STORAGE.put("Result Page", ((AmazonHomePage) PAGES_STORAGE.get(pageName)).shopChair(category));
     }
 
     @Then("User is successfully navigated to {string}")
